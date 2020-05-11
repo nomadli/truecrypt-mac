@@ -78,7 +78,6 @@ ifneq "$(origin VERBOSE)" "command line"
 endif
 
 ifeq "$(origin WXSTATIC)" "command line"
-	WX_CONFIG = $(WX_BUILD_DIR)/wx-config
 	WX_CONFIG_ARGS += --static
 endif
 
